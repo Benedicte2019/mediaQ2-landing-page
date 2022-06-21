@@ -260,7 +260,7 @@ a {
         /* padding-right: 8em; */
         /* margin: auto; */
         /* padding: 4em; */
-        /* background-image: url("images/bg-hero-desktop.svg"); */
+        background-image: url("images/bg-hero-mobile.svg");
         /* background-size: contain; */
         /* background-color: hsl(193, 100%, 96%); */
         display: grid;
@@ -329,7 +329,7 @@ a {
     .top-btm {
         margin-left: 17px;
         background-color: white;
-        width: 90%;
+        width: 92.1%;
         height: 150px;
         padding-top: 2em;
         /* margin: auto; */
