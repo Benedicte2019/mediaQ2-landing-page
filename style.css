@@ -294,6 +294,7 @@ a {
     .middle {
         padding-left:3.5em;
         /* align-content: center; */
+        text-align: center;
     }
 
     .mid-a {
