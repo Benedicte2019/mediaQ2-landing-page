@@ -388,3 +388,134 @@ a {
         'g g h h';
     }
 }
+
+@media screen and (max-width: 375px) {
+    body {
+        /* margin: auto; */
+        width: 140%;
+    }
+    .top {
+        /* width: 100%; */
+        padding: 8em;
+        padding-left: 1em;
+        /* padding-right: 8em; */
+        /* margin: auto; */
+        /* padding: 4em; */
+        background-image: url("images/bg-hero-mobile.svg");
+        /* background-size: contain; */
+        /* background-color: hsl(193, 100%, 96%); */
+        display: grid;
+        grid-template-areas: 
+        'l m'
+        'g g'
+        'h h';
+        gap: 30px;
+    }
+    
+    .ttl {
+        grid-area: l;
+    }
+    .ttr {
+        grid-area: m;
+        /* padding-right: 2em; */
+    }
+    .top-l{
+        grid-area: g;
+        align-content: center;
+        text-align: center;
+        padding: 2em;
+    }
+    .top-r {
+        grid-area: h;
+    }
+    .top-r img {
+        width: 470px;
+    }
+
+    .middle {
+        padding-left:3.5em;
+        /* align-content: center; */
+        text-align: center;
+    }
+
+    .mid-a {
+        display:grid;
+        grid-template-areas: 
+        'al'
+        'ar';
+    }
+    .mid-al {
+        grid-area: ar;
+        /* order: 2; */
+    }
+    .mid-ar {
+        grid-area: al;
+        /* order: 1; */
+    }
+    .mid-b {
+        display: block;
+    }
+    .mid-c {
+        display:grid;
+        grid-template-areas: 
+        'cl'
+        'cr';
+    }
+    .mid-cl {
+        grid-area: cr;
+    }
+    .mid-cr {
+        grid-area: cl;
+    }
+
+    .top-btm {
+        margin-left: 17px;
+        background-color: white;
+        width: 92.1%;
+        height: 150px;
+        padding-top: 2em;
+        /* margin: auto; */
+        text-align: center;
+        transform: translate(0em,40%);
+        /*work on the position of div when size changes*/
+        box-shadow: 2px 2px 3px 6px rgba(176, 164, 164, 0.1);
+        border-radius: 15px;
+    }
+    .bottom {
+        display: block;
+        /* margin-bottom: 0; */
+        padding-bottom: 0;
+        padding-left: 1em;
+        /* margin-right: 0; */
+    }
+    .br {
+        padding-top: 0px;
+        text-align: center;
+    }
+    .email {
+        padding-bottom: 0px;
+    }
+    .email {
+        padding-bottom: 0px;
+    }
+    .blg {
+        padding-left: 1em;
+    }
+    .bl-c {
+        /* margin-top: 0; */
+        padding-top: 0px;
+        padding-left: 1em;
+        padding-bottom: 0px;
+        /* margin-top: 0; */
+    }
+    .br-c {
+        padding-top: 0px;
+        padding-left: 1em;
+        /* padding-bottom: 0px; */
+    }
+    .end {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+}
