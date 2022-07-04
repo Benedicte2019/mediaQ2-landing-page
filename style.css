@@ -248,10 +248,10 @@ a {
     color: gray;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
     body {
         /* margin: auto; */
-        width: 140%;
+        width: 120%;
     }
     .top {
         /* width: 100%; */
